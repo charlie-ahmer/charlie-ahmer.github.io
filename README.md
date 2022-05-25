@@ -1,2 +1,2 @@
 # charlie-ahmer.github.io
- Personal Website
+ This is fun.
