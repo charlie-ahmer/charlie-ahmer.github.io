@@ -1,14 +1,209 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" dir="ltr">
   <head>
+<!--    <meta charset="utf-8" name="viewport" content="width=device-width,initial-scale=1">-->
     <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="description" content="">
-    <meta name="author" content="">
-    <title>Title</title>
-    <link rel="stylesheet" href="style.css">
+
+    <title>Chad Nelson</title>
+	
+	<link rel="stylesheet" type="text/css" href="./static/css/index.css">
+    <link rel="stylesheet" type="text/css" href="./static/css/layout.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.css"> 
+
   </head>
   <body>
+
+    <section>
+      <header>
+        <!-- fixed-top makes the navbar stick to the top of the screen as the user is scrolling -->
+        <nav class="navbar fixed-top navbar-expand-lg navbar-dark bg-dark">
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav ml-auto">
+              <li class="nav-item">
+                <a class="nav-link" href="#aboutme">About</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="./templates/projects.html">Projects</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="./templates/experiences.html">Experience</a>
+              </li>
+            </ul>
+          </div>
+        </nav>
+      </header>
+    </section>
+
+  <main>
+    <!-- *************************************
+      Jumbotron Section
+    -->
+    <div class="jumbotron jumbotron-fluid">
+      <div class="container-fluid">
+        <h1>Chad Nelson</h1>
+        <p>University of Iowa, Tippie College of Business<br>
+	   M.S, Business Analytics</p>
+        <p>University of Northern Iowa<br>
+	   B.A, Marketing</p>
+		
+      </div>
+    </div>
+
+
+    <!-- *************************************
+      About Me Section
+    -->
+    <div class="about-me" id="aboutme">
+      <div class="container">
+        <div class="row">
+
+          <div class="col-md-4 me">
+            <div class="picture">
+            </div>
+          </div>
+			
+          <div class="col-md-8">
+            <div class="about-text">
+              <h2>About Chad Nelson</h2>
+			  <hr color= black >
+			  
+              <p>I am currently in my second year of the Master of Science in Business Analtyics program at the University of Iowa.
+		 In my courses, I am learning to use tools for data analysis and decision making. I am currently searching for full-time data 
+		 scientist/analyst positions beginning January 2022.</p>
+	      <p>Time is a scarce resource, and I enjoy spending mine learning something new or being with family and friends. I also love to bike
+	  	 and run because both are great exercise and help me clear my mind.</p>
+	      <p>Please introduce yourself to me! I enjoy meeting new people and learning about their story. My contact information is at the bottom
+		 of the page. Below, you'll find photos of me with some past groups I've worked with along with links to my resource pages. Thanks for visiting!</p>
+		  
+          </div>
+
+        </div>
+      </div>
+    </div>
+
+
+    <!-- *************************************
+      Carousel Section
+    -->
+    	<br>
+	<br>
+	<br>
+	    
+	<div class="container">
+	<div id="carouselExampleCaptions" class="carousel slide" data-ride="carousel">
+  		<ol class="carousel-indicators">
+    			<li data-target="#carouselExampleCaptions" data-slide-to="0" class="active"></li>
+    			<li data-target="#carouselExampleCaptions" data-slide-to="1"></li>
+   			<li data-target="#carouselExampleCaptions" data-slide-to="2"></li>
+  		</ol>
+		
+  		<div class="carousel-inner">
+    			<div class="carousel-item active">
+				<div class="row">
+     				<img src="./static/images/AMA%20Exec%20Board.jpg" class="d-block w-100" alt="...">
+      					<div class="carousel-caption d-none d-md-block">
+       						<h5>AMA Executive Board</h5>
+       						<p>Our first conference as the incoming leadership team</p>
+     					</div>		
+				</div>
+    			</div>
+			
+    			<div class="carousel-item">
+				<div class="row">
+      				<img src="./static/images/Scheels%20Team.jpg" class="d-block w-100" alt="...">
+      					<div class="carousel-caption d-none d-md-block">
+        					<h5>Scheels Event Team</h5>
+        					<p>University of Northern Iowa Homecoming Celebration Team</p>
+      					</div>	
+				</div>
+    			</div>
+			
+    			<div class="carousel-item">
+				<div class="row">
+      				<img src="./static/images//Digital%20Strategy%20Team.jpg" class="d-block w-100" alt="...">
+      					<div class="carousel-caption d-none d-md-block">
+        					<h5>Digital Strategy Team</h5>
+        					<p>The (sunburnt) team during a break at the AMA International Conference</p>
+      					</div>
+				</div>
+    			</div>
+			
+		</div>
+		
+  		<a class="carousel-control-prev" href="#carouselExampleCaptions" role="button" data-slide="prev">
+    			<span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    			<span class="sr-only">Previous</span>
+  		</a>
+		
+  		<a class="carousel-control-next" href="#carouselExampleCaptions" role="button" data-slide="next">
+    			<span class="carousel-control-next-icon" aria-hidden="true"></span>
+    			<span class="sr-only">Next</span>
+		</a>
+		
+	</div>	
+	</div>
+
+  <!-- *************************************
+      Experiences Section
+    -->
+    <div class="section">
+      <div class="container">
+
+        <div class="row">
+          <div class="col-md-12 center">
+            <div class="title">
+              <em><h3 class="project-title">Resources</h3></em>
+			  </br>
+
+            </div>
+          </div>
+        </div>
+	    
+	<div class="row"> 
+		<div class="col-md-4">
+            		<a class="btn btn-outline gold" href="./static/documents/Chad_Nelson_Resume.pdf" target="_blank" >Resume</a>
+        	</div> 
+		
+		<div class="col-md-4"> 
+			<a class="btn btn-outline gold" href="./templates/projects.html">Projects</a>
+		</div>
+			
+		<div class="col-md-4"> 
+		    <a class="btn btn-outline gold" href="./templates/experiences.html">Experience</a>
+		</div>
+	</div>
+
+	</div> <!-- End Experiences Container --> 
+</div> <!-- End Experiences Section -->
+
+</main>
+
+
+
+  <!-- *************************************
+    Footer Section
+  -->
+  <footer class="footer">
+    <h5> Get in touch </h5>
+    <ul>
+	  <a href="mailto:chad.odell.nelson@gmail.com"><li>Email</li></a>
+	  <li class="customclass"> | </li>
+	  <a  style="color:gold;"<li>Phone:(712)540-9769</li></a>
+	  <li class="customclass"> | </li>
+	  <a  href="https://linkedin.com/in/nelson-chad"><li>LinkedIn</li></a>
+    </ul>
+  </footer>
+
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+
+
+
   </body>
 </html>
